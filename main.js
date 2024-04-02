@@ -47,7 +47,6 @@ document.addEventListener("DOMContentLoaded", function () {
 
   indicators.forEach((indicator, i) => {
     indicator.addEventListener("click", () => {
-      console.log(`${i} is clicked!`); //For debugging use only
       if (currentSlide < slides.length) {
         const translateValue = -i * 105;
         slides.forEach((slide) => {
