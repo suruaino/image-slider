@@ -70,4 +70,8 @@ body{
     margin-block: .5rem;
     border-radius: 50%;
     cursor: pointer;
+    transition: .3s;
 }
+.slider-indicator.active {
+    background-color: #333;
+  }
